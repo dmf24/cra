@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 """DEPRECATED"""
 
 def send_email(info, email, files):
-    sender = 'noreply@kirschner.med.harvard.edu'
+    sender = 'pesha@hms.harvard.edu'
     receivers = email
 
     message = MIMEMultipart(
