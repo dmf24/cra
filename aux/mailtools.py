@@ -15,7 +15,7 @@ Toolbox for sending emails through SMTP
 SMTP_SERVER=os.getenv('SMTP_SERVER', default='localhost')
 
 def send_error(error, email, lfil=None):
-    sender = 'noreply@kirschner.med.harvard.edu'
+    sender = 'pesha@hms.harvard.edu'
     receivers = email
 
     message = MIMEMultipart(
